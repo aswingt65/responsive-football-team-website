@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&display=swap');
+
+section {
+    background-color: white;
+    color: #131313;
+    font-family: "Andika New Basic", sans-serif;
+    overflow: hidden;
+}
+.website-header, footer {
+    background-color: yellow;
+}
+.footer-link-colour {
+    color: #131313;
+}
+
+.centre-heading {
+    text-align: center;
+    padding: 15px;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.general-sub {
+    font-family: "Andika New Basic", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.container {
+    padding: 15px;
+    width: 100%;
+    align-items: center;
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.website-header {
+    padding: 10px;
+}
+
+@media (min-width: 766px) {
+    .button-location {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important;
+}
+}
+@media (max-width: 765px) {
+    .button-location{
+    padding-top: 10px;
+    -ms-flex-pack: center !important;
+    -webkit-box-pack: center !important;
+            justify-content: center !important;
+  }
+  .btn-resp {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  }
+}
+
+.section-header {
+    font-family: "Andika New Basic", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px 0; 
+}
+.team-details {
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 10px;
+    height: 250px;
+    overflow: auto;
+}
+
+.img-container {
+    width:50%;
+    height: 50%;
+    padding: 15px 10px;
+}
+@media (max-width: 765px) {
+    .img-container {
+    width:50%;
+    height: 50%;
+    padding: 5px;
+}
+}
+
+#social-events {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0 0 10px;
+}
+.social-events-responsive {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 31.5%;
+    height: 400px;
+    float: left;
+    padding: 10px;
+    padding-top: 5%;
+    text-align: center;
+    margin: 6.5px;
+    font-size: large;
+}
+#social-events h1 {
+    font-size: xx-large;
+}
+#social-events h3 {
+    font-size: x-large;
+}
+#social-events h4 {
+        font-size: medium;
+}
+#social-events p {
+    font-size: x-large;
+}
+@media (max-width: 765px) {
+.social-events-responsive {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 97%;
+    padding: 15px;
+    margin: 6px;
+    height: 250px;
+}
+    #social-events {
+        padding: 10px;
+    }
+    #social-events h1 {
+        font-size: x-large;
+    }
+    #social-events h2 {
+        font-size: larger;
+    }
+    #social-events h3 {
+        font-size: larger;
+    }
+    #social-events h4 {
+        font-size: smaller;
+    }
+    #social-events p {
+        padding: 5px 0;
+        font-size: larger;
+        font-weight: 200;
+    }
+    #social-events a{
+        padding: 5px 0;
+        font-size: larger;
+        font-weight: 200;
+    }
+}
+@media (max-width: 380px) {
+    #social-events {
+        padding: 10px;
+    }
+    #social-events h1 {
+        font-size: x-large;
+    }
+    #social-events h2 {
+        font-size: x-large;
+    }
+    #social-events h3 {
+        font-size: large;
+    }
+    #social-events h4 {
+        font-size: small;
+    }
+    #social-events p {
+        padding: 5px 0;
+        font-size: medium;
+        font-weight: 200;
+    }
+    #social-events a{
+        padding: 5px 0;
+        font-size: larger;
+        font-weight: 200;
+    }
+}
+@media (max-width: 765px) {
+    footer {
+        font-size: medium;
+    }
+    .stadium-address {
+        font-size: 150%;
+        font-weight: bolder;
+    }
+}
+.container-fluid {
+    font-family: "Andika New Basic",sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: yellow;
+    min-height: 120px;
+    color: #0b0b0c;
+    margin: 0;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.footer-link-colour:hover{
+    color: #fafafa;
+    text-decoration: none;
+}
+.footer-link-colour i:hover{
+    color: #fafafa;
+    text-decoration: none;
+}
+.social-networks {
+    text-align: center;
+}
+.social-networks li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 200%;
+    margin-right: 1%;
+    padding: 1%;
+    color: #131313;
+    text-align: center;
+}
+#footer-details {
+    padding: 20px;
+}
+
+.contact-section {
+    height: 100vh;
+}
+.contact-form {
+    height: 100%;
+    position: relative;
+    top: 10%;
+    bottom: 10%;
+}
+.contact-heading {
+    font-weight: 700;
+    padding: 25px 0;
+    font-size: xx-large;
+}
+.contact-header {
+    font-size: larger;
+}
+.center-form {
+    margin: 0 auto;
+    max-width: 65%;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+@media (max-width: 675px) {
+.center-form {
+    max-width: 80%;
+}
+button[type="submit"] {
+    font-size: larger;
+}
+.contact-heading {
+    font-size: xx-large;
+}
+}
+.copyright{
+    text-align: center;
+}
+.copyright a{
+    color: black;
+}
+@media (max-width: 991px){
+
+.page-header .page-header-logo img {
+    padding: 3px 0;    
+
+}
+.page-header-logo img {
+    padding: 15px 0;
+}
+}
+.title{
+    text-align: center;
+}
